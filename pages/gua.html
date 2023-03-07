@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Register</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="gua.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+     <script src="gua.js" defer></script>
+
+  </head>
+  <body>
+
+  <div class="container">
+    <h2 class="title">Please provide your information</h2>
+
+    <form class="form" id="form">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="email"class="required">Email </label>
+          <input type="email" class="form-control input-grp" id="email" placeholder="Enter email">
+           <p class="validation-warning d-none" id="error1">Please enter your email address!</p>
+        </div>
+      </div>
+
+
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="age" class="required">Age </label>
+          <input type="age" class="form-control input-grp" id="age" placeholder="Enter age">
+           <p class="validation-warning d-none" id="error2">Please enter your age!</p>
+        </div>
+      </div>
+        
+      <div class="form-row" >
+        <div class="form-group">
+          <label for="gender" class="required">Gender </label>
+          <select id="gender" class="form-control btn btn-mini">
+            <option selected>Male</option>
+            <option>Female</option>
+          </select>
+        </div>
+      </div>
+
+      <button type="button" id="submit" class="btn btn-default">Continue to create your secret key</button>
+      <button type="button" id="activateAcc" class="btn btn-default">Activate your account</button>
+      <button type="button" id="requestReset" class="btn btn-default">Request reset code</button>
+    </form>
+
+    
+      <div id="msg">
+     </div>
+  </div>
+  </body>
+</html>

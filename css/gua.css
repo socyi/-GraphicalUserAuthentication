@@ -1,0 +1,90 @@
+	select.btn-mini {
+	    height: auto;
+	    border:1px solid #CDD8D6;
+	    width:8em;
+	}
+
+	.input-grp{
+		height:auto;
+		width: 30em;
+	}
+
+	#submit{
+		border:2px solid black;
+		width:30em;
+		display:block;
+		margin-bottom:1em;
+	}
+
+	#activateAcc,#createPass,#requestReset,#create,#login,#login2,#resetCode,#resetPassword,#reset{
+		border:2px solid black;
+		width:30em;
+		display:block;
+		margin-bottom:1em;
+	}
+
+	.required:after {
+	  content:"*";
+	  color:red;
+	}	
+
+	.form-group{
+		font-family: 'Nanum Gothic', sans-serif;
+		width:30em;
+	}
+
+	.title{
+		font-family: 'Nanum Gothic', sans-serif;
+		font-style: oblique;
+		margin-bottom:1em;
+		padding-bottom:4px;
+		border-bottom:3px solid #e6e6e6;
+	}
+
+	.validation-warning{
+		font-size:1em;
+		color:red;
+	}
+
+	.form-row{
+		margin-bottom: 1em;
+	}
+	#form{
+		margin-bottom: 2em;
+	}
+
+	.box{
+		height:6em;
+		margin-top:2em;
+		margin-bottom:2em;
+		border:3px solid #e6e6e6;
+		width:49em;
+
+	}
+	img{
+		width:5em;
+		height:5em;
+		margin:0.25em;
+		border:2px solid #e6e6e6;
+	}
+
+	#grid{
+		margin-top:1em;
+	}
+
+	.X {
+	    position: absolute;
+	   	display:contents;
+	   	color:#C55858;
+	   
+	}
+
+	.wrapper{
+		display:inline-flex;
+		margin-right:1.5em;
+	}
+
+
+	#login{
+		visibility:hidden;
+	}
